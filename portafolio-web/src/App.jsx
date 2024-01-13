@@ -16,10 +16,9 @@ function App() {
             <h2 className="text-white text-[30px] font-bold mb-5 text-center">
               Mi experiencia
             </h2>
-
             <Experiencia></Experiencia>
-
             <Habilidades></Habilidades>
+
             <MisProyectos></MisProyectos>
           </main>
         </>

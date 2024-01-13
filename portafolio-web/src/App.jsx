@@ -15,7 +15,7 @@ function App() {
               Alessandro Marino
             </h1>
             <img
-              src="../../public/img/foto.jpg"
+              srcSet="../../public/img/foto.jpg"
               alt=""
               className="w-[200px] rounded-[50%] mb-5"
             />
@@ -51,7 +51,7 @@ function App() {
                   <div className="flex items-center gap-4 mb-2">
                     <p className="mb-1 text-[20px]">Pragma</p>
                     <img
-                      src="../../public/img/pragma.jpg "
+                      srcSet="../../public/img/pragma.jpg "
                       alt=""
                       className="w-[40px] rounded-[50%]"
                     />
@@ -84,7 +84,7 @@ function App() {
                   <div className="flex items-center gap-4 mb-2">
                     <p className="mb-1 text-[20px]">Pragma</p>
                     <img
-                      src="../../public/img/fractal.jpg "
+                      srcSet="../../public/img/fractal.jpg "
                       alt=""
                       className="w-[40px] rounded-[50%]"
                     />
@@ -114,52 +114,52 @@ function App() {
 
                 <article className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:gap-10 justify-items-center">
                   <img
-                    src="../../public/icons/react.svg "
+                    srcSet="../../public/icons/react.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/js.svg "
+                    srcSet="../../public/icons/js.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/angular.svg "
+                    srcSet="../../public/icons/angular.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/type.svg "
+                    srcSet="../../public/icons/type.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/html.svg "
+                    srcSet="../../public/icons/html.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/csss.svg "
+                    srcSet="../../public/icons/csss.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/sass.svg "
+                    srcSet="../../public/icons/sass.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/tailwind.svg "
+                    srcSet="../../public/icons/tailwind.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/git.svg "
+                    srcSet="../../public/icons/git.svg "
                     className="w-[90px]"
                     alt=""
                   />
                   <img
-                    src="../../public/icons/aws.svg "
+                    srcSet="../../public/icons/aws.svg "
                     className="w-[90px]"
                     alt=""
                   />
@@ -186,7 +186,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    src="../../public/img/galery-img.png"
+                    srcSet="../../public/img/galery-img.png"
                     alt=""
                   />
 
@@ -205,7 +205,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    src="../../public/img/spotify.png"
+                    srcSet="../../public/img/spotify.png"
                     alt=""
                   />
 
@@ -227,7 +227,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    src="../../public/img/banco.png"
+                    srcSet="../../public/img/banco.png"
                     alt=""
                   />
 
@@ -249,7 +249,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    src="../../public/img/dezzzer.png"
+                    srcSet="../../public/img/dezzzer.png"
                     alt=""
                   />
 

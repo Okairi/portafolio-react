@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+import closeicon from "../assets/icons/closeicon.svg";
+import burgericon from "../assets/icons/burgericon.svg";
+
 export const IconClose = () => {
   const [icon, setIcon] = useState(true);
 
@@ -15,14 +18,14 @@ export const IconClose = () => {
     <>
       {icon ? (
         <img
-          src="../../public/icons/burgericon.svg"
+          srcSet={burgericon}
           alt=""
           className="size-[50px] md:hidden"
           onClick={changeIcon}
         />
       ) : (
         <img
-          src="../../public/icons/closeicon.svg"
+          srcSet={closeicon}
           alt=""
           className="size-[50px] md:hidden"
           onClick={changeIcon}

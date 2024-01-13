@@ -1,12 +1,30 @@
 import "./App.css";
 import { Layout } from "./layout/Layout";
 
+import foto from "./assets/img/foto.jpg";
+import pragmaLogo from "./assets/img/pragma.jpg";
+import fractalLogo from "./assets/img/fractal.jpg";
+import galeryImage from "./assets/img/galery-img.png";
+import spotifyImage from "./assets/img/spotify.png";
+import bancoImage from "./assets/img/banco.png";
+import dezzzerImage from "./assets/img/dezzzer.png";
+
+import reactIcon from "./assets/icons/react.svg";
+import jsIcon from "./assets/icons/js.svg";
+import angularIcon from "./assets/icons/angular.svg";
+import typeIcon from "./assets/icons/type.svg";
+import htmlIcon from "./assets/icons/html.svg";
+import cssIcon from "./assets/icons/csss.svg";
+import sassIcon from "./assets/icons/sass.svg";
+import tailwindIcon from "./assets/icons/tailwind.svg";
+import gitIcon from "./assets/icons/git.svg";
+import awsIcon from "./assets/icons/aws.svg";
+
 function App() {
   return (
     <>
       <Layout>
         <>
-          {" "}
           <section
             id="sobre-mi"
             className="text-white text-center flex flex-col items-center p-5 justify-center mb-[80px] mt-[40px]"
@@ -15,7 +33,7 @@ function App() {
               Alessandro Marino
             </h1>
             <img
-              srcSet="../../public/img/foto.jpg"
+              srcSet={foto}
               alt=""
               className="w-[200px] rounded-[50%] mb-5"
             />
@@ -51,7 +69,7 @@ function App() {
                   <div className="flex items-center gap-4 mb-2">
                     <p className="mb-1 text-[20px]">Pragma</p>
                     <img
-                      srcSet="../../public/img/pragma.jpg "
+                      srcSet={pragmaLogo}
                       alt=""
                       className="w-[40px] rounded-[50%]"
                     />
@@ -84,7 +102,7 @@ function App() {
                   <div className="flex items-center gap-4 mb-2">
                     <p className="mb-1 text-[20px]">Pragma</p>
                     <img
-                      srcSet="../../public/img/fractal.jpg "
+                      srcSet={fractalLogo}
                       alt=""
                       className="w-[40px] rounded-[50%]"
                     />
@@ -113,56 +131,16 @@ function App() {
                 </h2>
 
                 <article className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:gap-10 justify-items-center">
-                  <img
-                    srcSet="../../public/icons/react.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/js.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/angular.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/type.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/html.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/csss.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/sass.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/tailwind.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/git.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
-                  <img
-                    srcSet="../../public/icons/aws.svg "
-                    className="w-[90px]"
-                    alt=""
-                  />
+                  <img srcSet={reactIcon} className="w-[90px]" alt="" />
+                  <img srcSet={jsIcon} className="w-[90px]" alt="" />
+                  <img srcSet={angularIcon} className="w-[90px]" alt="" />
+                  <img srcSet={typeIcon} className="w-[90px]" alt="" />
+                  <img srcSet={htmlIcon} className="w-[90px]" alt="" />
+                  <img srcSet={cssIcon} className="w-[90px]" alt="" />
+                  <img srcSet={sassIcon} className="w-[90px]" alt="" />
+                  <img srcSet={tailwindIcon} className="w-[90px]" alt="" />
+                  <img srcSet={gitIcon} className="w-[90px]" alt="" />
+                  <img srcSet={awsIcon} className="w-[90px]" alt="" />
                 </article>
               </article>
             </section>
@@ -186,7 +164,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    srcSet="../../public/img/galery-img.png"
+                    srcSet={galeryImage}
                     alt=""
                   />
 
@@ -205,7 +183,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    srcSet="../../public/img/spotify.png"
+                    srcSet={spotifyImage}
                     alt=""
                   />
 
@@ -227,7 +205,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    srcSet="../../public/img/banco.png"
+                    srcSet={bancoImage}
                     alt=""
                   />
 
@@ -249,7 +227,7 @@ function App() {
 
                   <img
                     className="w-full h-auto mb-4 max-w-[268px] max-h-[124px]"
-                    srcSet="../../public/img/dezzzer.png"
+                    srcSet={dezzzerImage}
                     alt=""
                   />
 

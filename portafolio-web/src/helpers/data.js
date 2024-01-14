@@ -1,7 +1,7 @@
-import galeryImage from "../assets/img/galery-img.png";
-import spotifyImage from "../assets/img/spotify.png";
-import bancoImage from "../assets/img/banco.png";
-import dezzzerImage from "../assets/img/dezzzer.png";
+import galeryImage from "../assets/img/galery-img.jpg";
+import spotifyImage from "../assets/img/spotify.jpg";
+import bancoImage from "../assets/img/banco.jpg";
+import dezzzerImage from "../assets/img/dezzzer.jpg";
 
 import reactIcon from "../assets/icons/react.svg";
 import jsIcon from "../assets/icons/js.svg";

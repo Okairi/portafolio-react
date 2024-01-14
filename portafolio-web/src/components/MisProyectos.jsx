@@ -19,6 +19,7 @@ export const MisProyectos = () => {
               image={data.image}
               content1={data.conten1}
               contant2={data.content2}
+              redirec={data.redirect}
             ></CardProyect>
           );
         })}

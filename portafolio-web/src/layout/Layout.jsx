@@ -9,11 +9,10 @@ export const Layout = ({ children }) => {
         <header className="flex justify-between p-4 flex-row-reverse">
           <nav className="flex justify-between p-4 text-white font-jost text-lg hidden md:flex gap-[35px] fixed top-0 right-0 bg-[#081829] w-full  z-50">
             <div></div>
-
             <NavBar />
           </nav>
 
-          <div className="fixed">
+          <div className="fixed z-50">
             <IconClose />
           </div>
         </header>

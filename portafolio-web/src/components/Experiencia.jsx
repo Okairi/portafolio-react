@@ -41,7 +41,7 @@ export const Experiencia = () => {
         <article className="ml-4">
           <p className="text-[20px] font-bold">Dessarrollador FrontEnd</p>
           <div className="flex items-center gap-4 mb-2">
-            <p className="mb-1 text-[20px]">Pragma</p>
+            <p className="mb-1 text-[20px]">FracTalUp</p>
             <img
               srcSet={fractalLogo}
               alt=""

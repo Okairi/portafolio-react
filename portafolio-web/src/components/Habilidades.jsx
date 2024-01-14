@@ -1,13 +1,3 @@
-import reactIcon from "../assets/icons/react.svg";
-import jsIcon from "../assets/icons/js.svg";
-import angularIcon from "../assets/icons/angular.svg";
-import typeIcon from "../assets/icons/type.svg";
-import htmlIcon from "../assets/icons/html.svg";
-import cssIcon from "../assets/icons/csss.svg";
-import sassIcon from "../assets/icons/sass.svg";
-import tailwindIcon from "../assets/icons/tailwind.svg";
-import gitIcon from "../assets/icons/git.svg";
-import awsIcon from "../assets/icons/aws.svg";
 import { dataHabilidades } from "../helpers/data";
 
 export const Habilidades = () => {

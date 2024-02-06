@@ -14,7 +14,6 @@ export const CardProyect = ({ title, image, content1, content2, redirec }) => {
       </a>
 
       <p className="mb-3">{content1}</p>
-      <p>{content2}</p>
     </article>
   );
 };

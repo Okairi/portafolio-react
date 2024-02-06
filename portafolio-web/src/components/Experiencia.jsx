@@ -10,7 +10,7 @@ export const Experiencia = () => {
         <div className="border-l-8 border-[#004d81] rounded"></div>
 
         <article className="ml-4">
-          <p className="text-[20px] font-bold">Dessarrollador de Sofware</p>
+          <p className="text-[20px] font-bold">Desarrollador de Software </p>
           <div className="flex items-center gap-4 mb-2">
             <p className="mb-1 text-[20px]">Pragma</p>
             <img
@@ -39,7 +39,7 @@ export const Experiencia = () => {
         <div className="border-l-8 border-[#004d81] rounded"></div>
 
         <article className="ml-4">
-          <p className="text-[20px] font-bold">Dessarrollador FrontEnd</p>
+          <p className="text-[20px] font-bold">Desarrollador Front End </p>
           <div className="flex items-center gap-4 mb-2">
             <p className="mb-1 text-[20px]">FracTalUp</p>
             <img

@@ -1,6 +1,6 @@
 import galeryImage from "../assets/img/galery-img.jpg";
 import spotifyImage from "../assets/img/spotify.jpg";
-import bancoImage from "../assets/img/banco.jpg";
+import quizz from "../assets/img/quizz.jpg";
 import dezzzerImage from "../assets/img/dezzzer.jpg";
 
 import reactIcon from "../assets/icons/react.svg";
@@ -19,8 +19,7 @@ export const dataProyecys = [
     title: "Galery Images",
     image: galeryImage,
     conten1: `Una aplicación web que permite agregar imágenes a una galería de
-    fotos: Se utilizó React,Sass, Html, Firebase`,
-    content2: "",
+    fotos.`,
     redirect:
       "https://658b81a82473eb05a287eb49--thunderous-kringle-55a5cf.netlify.app/#/login",
   },
@@ -29,24 +28,19 @@ export const dataProyecys = [
     image: spotifyImage,
     conten1: `Una aplicación web que te permite iniciar sesión en Spotify , buscar
     canciones , agregar en favoritos y reproducir las músicas.`,
-    content2: "Se implementó con Angular,TypeScript, Sass,Html5.",
     redirect: "https://spotify-clone-2022.netlify.app/login",
   },
   {
-    title: "App Banco",
-    image: bancoImage,
-    conten1: `Una aplicación web que permite listar las entidades bancarias y
-    mostrar en detalle los balances de las cuentas.`,
-    content2: "Se implementó con Angular,TypeScript, Sass,Html5, PWA.",
-    redirect:
-      "https://654b11a171cce66be4f6be05--peaceful-dango-f0fb7b.netlify.app/auth/login",
+    title: "Cuestionario",
+    image: quizz,
+    conten1: `Se realizó una aplicación web donde se puede crear diferentes cuestionarios donde se puede personalizar las preguntas. `,
+    redirect: "https://cuestionario-de-los-dioses.netlify.app/",
   },
   {
     title: "Reproductor de música Dezzer",
     image: dezzzerImage,
     conten1: `Una aplicación web realizada con Vue.js donde permite reproducir la
     música que guste.`,
-    content2: "Se implementó con Vue,TypeScript, Sass,Html5",
     redirect: "https://reto-dezzer-vue.netlify.app/",
   },
 ];

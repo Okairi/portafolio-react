@@ -11,6 +11,8 @@ export const Experiencia = () => {
 
         <article className="ml-4">
           <p className="text-[20px] font-bold">Desarrollador de Software </p>
+          <p className="mt-2 mb-2">Agosto 2022 - Agosto 2023</p>
+
           <div className="flex items-center gap-4 mb-2">
             <p className="mb-1 text-[20px]">Pragma</p>
             <img
@@ -40,6 +42,8 @@ export const Experiencia = () => {
 
         <article className="ml-4">
           <p className="text-[20px] font-bold">Desarrollador Front End </p>
+          <p className="mt-2 mb-2">Diciembre 2021 - Abril 2022</p>
+
           <div className="flex items-center gap-4 mb-2">
             <p className="mb-1 text-[20px]">FracTalUp</p>
             <img
